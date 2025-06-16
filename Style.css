@@ -20,6 +20,7 @@ body {
   top: 75%;
   left: 95%;
   width: 80px;
+  z-index: 9999;
 }
 
 .float-wa:hover {
