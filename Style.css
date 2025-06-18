@@ -11,17 +11,17 @@ body {
 }
 
 .float-wa {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   opacity: 87%;
-  margin: 0 auto;
   padding: 3px;
   background-color: #ffffff;
   border-radius: 50px;
-  position: sticky;
-  top: 75%;
-  left: 95%;
   width: 80px;
-  z-index: 9999;
+  z-index: 999;
 }
+
 
 .float-wa:hover {
   transition: ease-in(0.4s);
@@ -212,16 +212,18 @@ strong:hover {
     margin: 5px;
   }
 
+
+
   .float-wa {
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
     opacity: 87%;
-    margin: 0 auto;
     padding: 3px;
     background-color: #ffffff;
     border-radius: 50px;
-    position: sticky;
-    top: 80%;
-    left: 95%;
     width: 80px;
+    z-index: 999;
   }
 
 
