@@ -215,15 +215,15 @@ strong:hover {
 
 
   .float-wa {
-    position: sticky;
-    bottom: 20px;
-    right: 20px;
     opacity: 87%;
+    margin: 0 auto;
     padding: 3px;
     background-color: #ffffff;
     border-radius: 50px;
+    position: sticky;
+    top: 80%;
+    left: 95%;
     width: 80px;
-    z-index: 999;
   }
 
 
